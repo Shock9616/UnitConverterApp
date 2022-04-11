@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Unit Converter</string>
+    <string name="appname_label">Unit Converter</string>
+    <string name="length_button">Length</string>
+    <string name="volume_button">Volume</string>
+    <string name="weight_button">Weight</string>
+    <string name="speed_button">Speed</string>
+    <string name="createdby_label">Created by Kaleb Rosborough and Karan Sharmaa</string>
 </resources>
