@@ -10,6 +10,18 @@
             android:supportsRtl="true"
             android:theme="@style/Theme.UnitConverter">
         <activity
+                android:name=".VolumeActivity"
+                android:exported="true"/>
+        <activity
+                android:name=".SpeedActivity"
+                android:exported="true"/>
+        <activity
+                android:name=".WeightActivity"
+                android:exported="true"/>
+        <activity
+                android:name=".LengthActivity"
+                android:exported="true"/>
+        <activity
                 android:name=".MainActivity"
                 android:exported="true">
             <intent-filter>

@@ -1,9 +1,41 @@
 <resources>
     <string name="app_name">Unit Converter</string>
-    <string name="appname_label">Unit Converter</string>
+    <string name="app_name_label">Unit Converter</string>
     <string name="length_button">Length</string>
     <string name="volume_button">Volume</string>
     <string name="weight_button">Weight</string>
     <string name="speed_button">Speed</string>
-    <string name="createdby_label">Created by Kaleb Rosborough and Karan Sharmaa</string>
+    <string name="created_by_label">Created by Kaleb Rosborough and Karan Sharma</string>
+    <string name="activity_length_title">Length</string>
+    <string name="convert_button">Convert</string>
+    <string name="activity_weight_title">Weight</string>
+    <string name="activity_speed_title">Speed</string>
+    <string name="activity_volume_title">Volume</string>
+    <string-array name="length_units">
+        <item>Millimeters</item>
+        <item>Centimeters</item>
+        <item>Decimeters</item>
+        <item>Meters</item>
+        <item>Kilometers</item>
+    </string-array>
+    <string-array name="weight_units">
+        <item>Grams</item>
+        <item>Milligrams</item>
+        <item>Kilograms</item>
+        <item>Pounds</item>
+    </string-array>
+    <string-array name="speed_units">
+        <item>Miles per Hour</item>
+        <item>Km Per Hour</item>
+        <item>Meters per Second</item>
+        <item>Feet per Second</item>
+    </string-array>
+    <string-array name="volume_units">
+        <item>Gallons</item>
+        <item>Cups</item>
+        <item>Tablespoons</item>
+        <item>Teaspoons</item>
+        <item>Liters</item>
+        <item>Milliliters</item>
+    </string-array>
 </resources>
