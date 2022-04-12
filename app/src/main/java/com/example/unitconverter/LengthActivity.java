@@ -13,6 +13,7 @@ import android.widget.Toast;
 
 public class LengthActivity extends AppCompatActivity
 {
+    //variables that we will use to aid us access the data from the app template
     private EditText text1;
     private EditText text2;
     private Button convert;
