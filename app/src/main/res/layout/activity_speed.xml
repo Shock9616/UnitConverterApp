@@ -28,7 +28,7 @@
             android:clickable="true" app:srcCompat="@android:drawable/ic_menu_revert"
             android:id="@+id/speed_back_button"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="20dp"
-            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="20dp"/>
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="20dp" />
     <Spinner
             android:layout_width="0dp"
             android:layout_height="60dp" android:id="@+id/speed_value_to_unit"
