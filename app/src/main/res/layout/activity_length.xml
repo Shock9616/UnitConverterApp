@@ -8,20 +8,28 @@
         tools:context=".LengthActivity">
 
     <EditText
-            android:layout_width="0dp"
-            android:layout_height="60dp"
-            android:ems="10"
-            android:id="@+id/length_value_to_view"
-            android:layout_marginTop="100dp"
-            app:layout_constraintTop_toBottomOf="@+id/length_value_from_view" app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="10dp" android:inputType="numberSigned|numberDecimal"/>
+        android:id="@+id/length_value_to_view"
+        android:layout_width="179dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="140dp"
+        android:ems="10"
+        android:inputType="numberSigned|numberDecimal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/length_value_from_view" />
+
     <Spinner
-            android:layout_width="0dp"
-            android:layout_height="60dp" android:id="@+id/length_value_to_unit"
-            android:layout_marginTop="100dp"
-            app:layout_constraintTop_toBottomOf="@+id/length_value_from_unit" android:layout_marginEnd="10dp"
-            app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="5dp"
-            app:layout_constraintStart_toEndOf="@+id/length_value_to_view"/>
+        android:id="@+id/length_value_to_unit"
+        android:layout_width="203dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toEndOf="@+id/length_value_to_view"
+        app:layout_constraintTop_toBottomOf="@+id/length_value_from_unit" />
+
     <TextView
             android:text="@string/activity_length_title"
             android:layout_width="171dp"
@@ -30,23 +38,28 @@
             android:layout_marginTop="50dp" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" android:textAlignment="center" android:textSize="20sp"
             android:textStyle="bold"/>
+
     <EditText
-            android:layout_width="0dp"
-            android:layout_height="60dp"
-            android:inputType="numberSigned|numberDecimal"
-            android:ems="10"
-            android:id="@+id/length_value_from_view"
-            android:layout_marginTop="60dp"
-            app:layout_constraintTop_toBottomOf="@+id/length_title" app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="10dp"/>
+        android:id="@+id/length_value_from_view"
+        android:layout_width="179dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:inputType="numberSigned|numberDecimal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/length_title" />
+
     <Spinner
-            android:layout_width="0dp"
-            android:layout_height="60dp"
-            android:id="@+id/length_value_from_unit"
-            android:layout_marginTop="60dp"
-            app:layout_constraintTop_toBottomOf="@+id/length_title" android:layout_marginEnd="10dp"
-            app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="5dp"
-            app:layout_constraintStart_toEndOf="@+id/length_value_from_view"/>
+        android:id="@+id/length_value_from_unit"
+        android:layout_width="209dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/length_value_from_view"
+        app:layout_constraintTop_toBottomOf="@+id/length_title" />
     <Button
             android:text="@string/convert_button"
             android:layout_width="wrap_content"
